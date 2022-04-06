@@ -15,7 +15,7 @@ public class Question1 {
 		int x = 63, y = 18;
 		System.out.println(x + y);
 		System.out.println((x + y)/2);
-
+		
 	}
 
 }
