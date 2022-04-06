@@ -1,6 +1,12 @@
 eclipse.preferences.version=1
 encoding//src/ch1/BooleanExample.java=UTF-8
 encoding//src/ch1/ByteExample.java=UTF-8
+encoding//src/ch1/CharExample.java=MS949
+encoding//src/ch1/CheckValueBeforeCasting.java=MS949
+encoding//src/ch1/FloatDoubleExample.java=MS949
+encoding//src/ch1/IntExample.java=MS949
+encoding//src/ch1/OperationPromotionExample.java=MS949
+encoding//src/ch1/PromotionExample.java=MS949
 encoding//src/ch1/Question1.java=UTF-8
 encoding//src/ch1/VariableExample.java=UTF-8
 encoding/<project>=UTF-8
