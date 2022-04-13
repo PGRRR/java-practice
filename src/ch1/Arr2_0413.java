@@ -2,15 +2,13 @@ package ch1;
 
 import java.util.Scanner;
 
-public class ArrayTest2_0412 {
+public class Arr2_0413 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int i, max;
-		int input = sc.nextInt();
-		System.out.println("정수 입력");
 		int [] arr = new int [10];
-		
+		System.out.println("정수 10개를 입력하라");
 		for (i = 0; i < arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
