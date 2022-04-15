@@ -3,17 +3,17 @@ package ch1;
 public class SwitchStringExample0413 {
 
 	public static void main(String[] args) {
-		String position = "과장";
+		String position = "C";
 		
 		switch(position) {
-		case "부장":
-			System.out.println("700 만원");
+		case "AB":
+			System.out.println("700 C");
 			break;
-		case "과장":
-			System.out.println("500 만원");
+		case "C":
+			System.out.println("500 C");
 			break;
 		default:
-			System.out.println("300 만원");
+			System.out.println("300 C");
 		}
 
 	}
