@@ -11,7 +11,7 @@ public class BreakOutterExample0414 {
 				}
 			}
 		}
-		System.out.println("���α׷� ����");
+		System.out.println("loop end");
 
 	}
 

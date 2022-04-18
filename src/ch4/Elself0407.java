@@ -7,17 +7,17 @@ public class Elself0407 {
 	public static void main(String[] args) {
 		int jumsu;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("������ �Է��϶�");
+		System.out.println("Input score");
 		jumsu=sc.nextInt();
-		if(jumsu>=90) {					// 90 �̻�
+		if(jumsu>=90) {					// 90 over
 			System.out.println("A");	
-		}else if (jumsu>=80) {			// 80�̻� 90�̸�
+		}else if (jumsu>=80) {			
 			System.out.println("B");
-		}else if (jumsu>=70) {			// 70�̻� 80�̸�
+		}else if (jumsu>=70) {			
 			System.out.println("C");
-		}else if (jumsu>=60) {			// 60�̻� 70�̸�
+		}else if (jumsu>=60) {			
 			System.out.println("D");
-		}else {							// 60�̸�
+		}else {							
 			System.out.println("F");
 		}
 	}

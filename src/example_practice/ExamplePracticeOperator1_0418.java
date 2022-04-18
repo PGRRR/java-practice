@@ -3,8 +3,7 @@ package example_practice;
 public class ExamplePracticeOperator1_0418 {
 
 	public static void main(String[] args) {
-		// int íƒ€ìž… ë³€ìˆ˜ score ì— ìžˆëŠ” ê°’ì„ ì‚¼í•­ì—°ì‚°ìžë¡œ 
-		// 90ì´ìƒì´ë©´ A 80ì´ìƒì´ë©´ B ë‚˜ë¨¸ì§€ëŠ” C ê²°ê³¼ char íƒ€ìž… grade ë³€ìˆ˜ì— ì´ˆê¸°í™”
+		// Á¡¼ö¿¡ µû¶ó¼­ 90Á¡ ÀÌ»óÀº A, 80Á¡ ÀÌ»óÀº B, ³ª¸ÓÁö´Â C ¸¦ Ãâ·ÂÇÏ´Â Á¶°Ç ¿¬»êÀÚ
 		int score = 100;
 		char grade = (score > 90) ? 'A' : ((score > 80) ? 'B' : 'C');
 		System.out.println(score + " score " + grade + " grade");

@@ -12,7 +12,7 @@ public class CompareOperatorExample2_0411 {
 		System.out.println(v4 == v5); // false
 		System.out.println((float)v4 == v5); // true
 		System.out.println((int)(v4*10) == (int)(v5*10)); // true
-		// Casting ���� ����ȯ
+		// Casting
 	}
 
 }

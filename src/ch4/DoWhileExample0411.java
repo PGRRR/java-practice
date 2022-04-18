@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class DoWhileExample0411 {
 
 	public static void main(String[] args) {
-		System.out.println("�޽����� �Է��ϼ���");
-		System.out.println("���α׷��� ����Ǹ� q�� �Է��ϼ���.");
+		System.out.println("exit - press q");
+		System.out.println();
 		
 		Scanner sc = new Scanner(System.in);
 		String inputString;
@@ -18,7 +18,7 @@ public class DoWhileExample0411 {
 		}while(! inputString.equals("q"));
 		
 		System.out.println();
-		System.out.println("���α׷� ����");
+		System.out.println("program end");
 	}
 
 }

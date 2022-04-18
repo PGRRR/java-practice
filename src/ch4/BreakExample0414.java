@@ -10,7 +10,7 @@ public class BreakExample0414 {
 				break;
 			}
 		}
-		System.out.println("���α׷� ����");
+		System.out.println("infinity loop end");
 	}
 
 }
