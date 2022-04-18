@@ -8,7 +8,7 @@ public class arrTest1_0414 {
 			array[i] = 5 - i;
 		}
 		for (int i = 0; i < array.length; i++)
-		System.out.print(array[i] + "\t");
+			System.out.print(array[i] + "\t");
 	}
 
 }
