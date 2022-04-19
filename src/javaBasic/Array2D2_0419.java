@@ -5,9 +5,9 @@ public class Array2D2_0419 {
 	public static void main(String[] args) {
 		int[][] score = {
 				{100, 100, 100},
-				{20, 20, 20},
-				{30, 30, 30},
-				{50, 50, 50}
+				{22, 20, 20},
+				{32, 30, 30},
+				{52, 50, 50}
 		};
 		int korTotal = 0, engTotal = 0, mathTotal = 0;
 
@@ -27,9 +27,9 @@ public class Array2D2_0419 {
 				sum += score[i][j];
 				System.out.printf("%5d", score[i][j]);
 			}
-
+			System.out.printf("%5d", sum);
 			avg = sum / (float)score[i].length;
-			System.out.println("  " + avg);
+			System.out.printf("%5.0f%n", avg);
 		}
 
 	}
