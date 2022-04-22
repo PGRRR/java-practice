@@ -1,13 +1,10 @@
 package javaBasic;
 
 public class MethodParameter0421 {
-	long add(long a, long b) {
-		long result = a + b;
-		return result;
-	}
+
 	public static void main(String[] args) {
 		MyMath mm = new MyMath();
-		long result1 = add(5L, 3L);
+		long result1 = mm.add(5L, 3L);
 		long result2 = mm.subtract(5L, 3L);
 		long result3 = mm.multiply(5L, 3L);
 		double result4 = mm.divide(5L, 3L);
@@ -22,6 +19,10 @@ public class MethodParameter0421 {
 }
 
 class MyMath {
+	long add(long a, long b) {
+		long result = a + b;
+		return result;
+	}
 
 	long subtract(long a, long b) {
 		long result = a - b;
