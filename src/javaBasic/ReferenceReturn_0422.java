@@ -4,7 +4,7 @@ class Data3 {
 	int x;
 }
 
-public class ReferenceParameter2_0422 {
+public class ReferenceReturn_0422 {
 	public static void main(String[] args) {
 		Data3 d = new Data3();
 		d.x = 10;
@@ -14,7 +14,7 @@ public class ReferenceParameter2_0422 {
 		System.out.println("d2.x = " + d2.x);
 	}
 
-	static Data3 copy(Data3 d) { 
+	static Data3 copy(Data3 d) {
 		Data3 tmp = new Data3();
 
 		tmp.x = d.x;

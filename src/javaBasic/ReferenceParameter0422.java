@@ -16,9 +16,9 @@ public class ReferenceParameter0422 {
 		System.out.println("main() : x = " + d.x);
 
 	}
-	static void change(Data2 d) {
-		d.x = 1000;
-		System.out.println("change() : x = " + d.x);
+	static void change(Data2 da) {
+		da.x = 1000;
+		System.out.println("change() : x = " + da.x);
 	}
 
 }
