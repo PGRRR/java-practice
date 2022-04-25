@@ -15,8 +15,8 @@ public class Member3 {
 		tel = _tel;
 	}
 	
-	void print() {
-		System.out.println("name : " + name);
+	void print(String name) {
+		System.out.println("name : " + this.name + name);
 		System.out.println("tel : " + tel);
 		System.out.println("address : " + address);
 	}
