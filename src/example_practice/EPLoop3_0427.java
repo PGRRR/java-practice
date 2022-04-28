@@ -1,4 +1,4 @@
-package javabasicpractice;
+package example_practice;
 
 public class EPLoop3_0427 {
     public static void main(String[] args) {
@@ -13,9 +13,9 @@ public class EPLoop3_0427 {
             }
         }
         if(number == result){
-            System.out.println(number + "는 회문수 입니다.");
+            System.out.println(number + "�뒗 �쉶臾몄닔 �엯�땲�떎.");
         } else {
-            System.out.println(number + "는 회문수가 아닙니다.");
+            System.out.println(number + "�뒗 �쉶臾몄닔媛� �븘�떃�땲�떎.");
         }
     }
 }

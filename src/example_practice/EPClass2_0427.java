@@ -1,9 +1,9 @@
-package javabasicpractice;
+package example_practice;
 
 public class EPClass2_0427 {
     public static void main(String[] args) {
         Student s = new Student();
-        s.name = "홍길동";
+        s.name = "�솉湲몃룞";
         s.ban = 1;
         s.no = 1;
         s.kor = 100;

@@ -1,4 +1,4 @@
-package javabasicpractice;
+package example_practice;
 
 public class EPConditional5_0427 {
     public static void main(String[] args) {

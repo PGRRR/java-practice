@@ -1,4 +1,4 @@
-package javabasicpractice;
+package example_practice;
 
 public class EPLoop1_0427 {
     public static void main(String[] args) {
@@ -14,9 +14,9 @@ public class EPLoop1_0427 {
             }
         }
         if (isNumber) {
-            System.out.println(value + "는 숫자입니다.");
+            System.out.println(value + "�뒗 �닽�옄�엯�땲�떎.");
         } else {
-            System.out.println(value + "는 숫자가 아닙니다.");
+            System.out.println(value + "�뒗 �닽�옄媛� �븘�떃�땲�떎.");
         }
     }
 }

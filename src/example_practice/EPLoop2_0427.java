@@ -1,4 +1,4 @@
-package javabasicpractice;
+package example_practice;
 
 import java.util.Scanner;
 
@@ -12,15 +12,15 @@ public class EPLoop2_0427 {
 
         do {
             count++;
-            System.out.println("1과 100사이의 값을 입력하세요 : ");
+            System.out.println("1怨� 100�궗�씠�쓽 媛믪쓣 �엯�젰�븯�꽭�슂 : ");
             input = sc.nextInt();
             if (input > answer){
-                System.out.println("더 작은 수를 입력하세요.");
+                System.out.println("�뜑 �옉�� �닔瑜� �엯�젰�븯�꽭�슂.");
             } else if (input < answer) {
-                System.out.println("더 큰 수를 입력하세요.");
+                System.out.println("�뜑 �겙 �닔瑜� �엯�젰�븯�꽭�슂.");
             } else if (input == answer){
-                System.out.println("정답입니다.");
-                System.out.println("시도 횟수는 " + count + "번입니다.");
+                System.out.println("�젙�떟�엯�땲�떎.");
+                System.out.println("�떆�룄 �슏�닔�뒗 " + count + "踰덉엯�땲�떎.");
                 break;
             }
         }while (true);
