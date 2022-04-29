@@ -8,36 +8,26 @@ class Parent {
     public Parent() {
         System.out.println("Parent constructor");
     }
-    public Parent(int a, int b) {
-    	System.out.println(a + b);
-    }
 
     public void printParentInfo() {
         System.out.println("name : " + name);
         System.out.println("age : " + age);
     }
 
-    public int getMoney() { // getter
+    public int getMoney() {
         return money;
     }
 
-    public void setMoney(int money) { // setter
+    public void setMoney(int money) {
         this.money = money;
     }
 }
 
 class Child extends Parent {
-	void a () {
-		Child w = new Child();
-		w.name = "wd";
-	}
     private String hobby;
 
     public Child() {
         System.out.println("Child constructor");
-    }
-    public Child(int a, int b) {
-    	System.out.println(a + b);
     }
 
     public void printInfo() {
@@ -47,18 +37,18 @@ class Child extends Parent {
         System.out.println("hobby : " + hobby);
     }
 
-    public String getHobby() { // getter
+    public String getHobby() {
         return hobby;
     }
 
-    public void setHobby(String hobby) { // setter
+    public void setHobby(String hobby) {
         this.hobby = hobby;
     }
 }
 
 public class ParentMain {
     public static void main(String[] args) {
-        Parent p = new Parent(); // call constructor
+        Parent p = new Parent();
         p.name = "Parent";
         p.age = 50;
         p.setMoney(10000);
@@ -66,8 +56,7 @@ public class ParentMain {
         System.out.println("money : " + p.getMoney());
         System.out.println("-----------------------");
 
-        Child c = new Child(); // 
-        Child d = new Child(4, 5);
+        Child c = new Child();
         c.name = "Child";
         c.age = 20;
         c.setHobby("guitar");
