@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Info</title>
+</head>
+<body>
+<p>회원 정보</p>
+<p th:text="'회원 ID : ' + ${id}" >회원 ID</p>
+<p th:text="'회원 PW : ' + ${pw}" >회원 PW</p>
+<p>회원 가입 되었습니다!</p>
+<a href="/list">User List</a>
+</body>
+</html>
